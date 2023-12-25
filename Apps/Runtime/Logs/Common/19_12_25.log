@@ -1,0 +1,3 @@
+[ 2019-12-25T14:50:54+08:00 ] 183.131.113.151 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+

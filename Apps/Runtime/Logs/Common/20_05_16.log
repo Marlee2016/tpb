@@ -1,0 +1,18 @@
+[ 2020-05-16T07:46:17+08:00 ] 111.13.67.181 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2020-05-16T07:46:17+08:00 ] 111.13.67.181 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+
+[ 2020-05-16T10:28:43+08:00 ] 121.201.34.11 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2020-05-16T10:28:44+08:00 ] 121.201.34.11 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+
+[ 2020-05-16T21:24:00+08:00 ] 129.204.238.101 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2020-05-16T21:24:00+08:00 ] 129.204.238.101 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+

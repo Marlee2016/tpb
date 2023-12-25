@@ -1,0 +1,36 @@
+[ 2019-10-18T06:10:55+08:00 ] 112.29.140.222 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2019-10-18T06:10:55+08:00 ] 112.29.140.222 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+
+[ 2019-10-18T08:32:02+08:00 ] 112.29.140.224 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2019-10-18T08:32:02+08:00 ] 112.29.140.224 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+
+[ 2019-10-18T15:20:21+08:00 ] 112.29.140.224 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2019-10-18T15:20:21+08:00 ] 112.29.140.224 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+
+[ 2019-10-18T17:24:46+08:00 ] 112.29.140.227 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2019-10-18T17:24:46+08:00 ] 112.29.140.227 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+
+[ 2019-10-18T23:05:26+08:00 ] 106.75.240.108 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2019-10-18T23:05:27+08:00 ] 106.75.240.108 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+
+[ 2019-10-18T23:12:37+08:00 ] 49.234.124.175 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2019-10-18T23:12:37+08:00 ] 49.234.124.175 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+

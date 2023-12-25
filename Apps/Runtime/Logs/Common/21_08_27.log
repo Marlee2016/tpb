@@ -1,0 +1,6 @@
+[ 2021-08-27T06:06:44+08:00 ] 128.199.139.15 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2021-08-27T06:06:45+08:00 ] 128.199.139.15 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+

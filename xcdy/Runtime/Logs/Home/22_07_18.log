@@ -1,0 +1,845 @@
+[ 2022-07-18T10:22:39+08:00 ] 117.136.0.84 /tp/xcdy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2022-07-18T10:22:47+08:00 ] 117.136.0.84 /tp/xcdy.php/Home/Index/search?keyword=%E5%8A%B3%E5%8A%A8%E4%BB%B2%E8%A3%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%劳%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%动%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%仲%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%裁%'  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2022-07-18T10:22:53+08:00 ] 117.136.0.84 /tp/xcdy.php/Home/Index/detail/id/72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `questions` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2022-07-18T11:04:21+08:00 ] 120.244.146.100 /tp/xcdy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2022-07-18T12:57:20+08:00 ] 61.149.4.8 /tp/xcdy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2022-07-18T12:57:27+08:00 ] 61.149.4.8 /tp/xcdy.php/Home/Index/search?keyword=%E5%87%8F%E5%91%98%E8%A1%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%减%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%员%'  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%表%'  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2022-07-18T12:57:31+08:00 ] 61.149.4.8 /tp/xcdy.php/Home/Index/search?keyword=%E5%87%8F%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%减%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%员%'  [ RunTime:0.0070s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2022-07-18T13:26:38+08:00 ] 111.199.101.209 /tp/xcdy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2022-07-18T13:26:49+08:00 ] 111.199.101.209 /tp/xcdy.php/Home/Index/search?keyword=%E5%87%8F%E5%91%98%E7%94%B3%E8%AF%B7%E8%A1%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%减%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%员%'  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%申%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%请%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%表%'  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2022-07-18T13:26:52+08:00 ] 111.199.101.209 /tp/xcdy.php/Home/Index/search?keyword=%E5%87%8F%E5%91%98%E7%94%B3%E8%AF%B7%E8%A1%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%减%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%员%'  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%申%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%请%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%表%'  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2022-07-18T15:22:14+08:00 ] 120.245.64.252 /tp/xcdy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2022-07-18T15:41:14+08:00 ] 36.98.54.255 /tp/xcdy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2022-07-18T15:41:26+08:00 ] 36.98.54.255 /tp/xcdy.php/Home/Index/search?keyword=%E5%87%8F%E5%91%98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%减%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%员%'  [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2022-07-18T15:48:19+08:00 ] 111.196.215.1 /tp/xcdy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2022-07-18T15:48:41+08:00 ] 111.196.215.1 /tp/xcdy.php/Home/Index/search?keyword=%E9%80%80%E4%BC%91%E7%94%B3%E8%AF%B7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%退%'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%休%'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%申%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%请%'  [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2022-07-18T15:49:02+08:00 ] 111.196.215.1 /tp/xcdy.php/Home/Index/detail/id/45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `questions` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2022-07-18T15:49:29+08:00 ] 111.196.215.1 /tp/xcdy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2022-07-18T15:50:02+08:00 ] 111.196.215.1 /tp/xcdy.php/Home/Index/search?keyword=%E5%A4%96%E5%9C%B0%E5%86%9C%E6%9D%91%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%9C%A8%E5%8C%97%E4%BA%AC%E9%80%80%E4%BC%91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%外%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%地%'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%农%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%村%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%劳%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%动%'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%力%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%在%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%北%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%京%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%退%'  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%休%'  [ RunTime:0.0030s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2022-07-18T15:50:05+08:00 ] 111.196.215.1 /tp/xcdy.php/Home/Index/search?keyword=%E5%A4%96%E5%9C%B0%E5%86%9C%E6%9D%91%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%9C%A8%E5%8C%97%E4%BA%AC%E9%80%80%E4%BC%91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%外%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%地%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%农%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%村%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%劳%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%动%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%力%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%在%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%北%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%京%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%退%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%休%'  [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2022-07-18T15:51:03+08:00 ] 101.89.19.197 /tp/xcdy.php/Home/Index/search?keyword=%E5%A4%96%E5%9C%B0%E5%86%9C%E6%9D%91%E5%8A%B3%E5%8A%A8%E5%8A%9B%E5%9C%A8%E5%8C%97%E4%BA%AC%E9%80%80%E4%BC%91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+NOTIC: [2048] Redefining already defined constructor for class PSCWS4 E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 120 行.
+NOTIC: [2048] Redefining already defined constructor for class XDB_R E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 34 行.
+NOTIC: [2] fopen(/path/to/etc/dict.utf8.xdb): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 42 行.
+NOTIC: [512] XDB::Open(dict.utf8.xdb) failed. E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\xdb_r.class.php 第 44 行.
+NOTIC: [2] fopen(/path/to/etc/rules.utf8.ini): failed to open stream: No such file or directory E:\www\weixin\tp\ThinkPHP\Library\Org\pscws4\pscws4.class.php 第 400 行.
+SQL: SHOW COLUMNS FROM `questions` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%外%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%地%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%农%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%村%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%劳%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%动%'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%力%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%在%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%北%'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%京%'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%退%'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `questions` WHERE `active` = 1 AND `title` LIKE '%休%'  [ RunTime:0.0030s ]
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Array to string conversion E:\www\weixin\tp\xcdy\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2022-07-18T17:53:45+08:00 ] 111.199.100.200 /tp/xcdy.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+

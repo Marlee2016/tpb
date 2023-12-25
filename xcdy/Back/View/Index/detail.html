@@ -1,0 +1,72 @@
+<extend name="layout:base"/>
+
+<block name="css">
+    <style>
+        .title {
+            margin: 10px 0;
+        }
+
+        .content {
+            line-height: 25px;
+            letter-spacing: 1px;
+            text-indent: 2rem;
+            text-align: justify;
+            margin-top: 20px;
+        }
+
+        .other > span {
+            color: #aaa;
+            display: inline-block;
+            text-indent: 2rem;
+        }
+
+        .update, .delete {
+            font-size: 13px;
+            text-align: center;
+            text-decoration: underline;
+            border-radius: 5px;
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .update {
+            color: #3e8f3e !important;
+        }
+
+        .delete {
+            color: #990000 !important;
+        }
+    </style>
+</block>
+
+<block name="head-title">
+    问题详情
+</block>
+
+<block name="list">
+    <div class="box">
+        <h2 class="title"><{$ques.title}></h2>
+
+        <p class="other">
+            <span>发布时间：<{$ques.created_at}></span>
+            <a href="<{:U('Index/edit')}>?id=<{$ques.id}>" class="update">修改</a>
+            <a href="<{:U('Index/destroy')}>?id=<{$ques.id}>" onclick="return(window.confirm('你确定要删除这条问题记录吗？'))" class="delete">删除</a>
+            <!--<a href="javascript:;" onclick="del(window.confirm('你确定要删除这条问题记录吗？'))" class="delete">删除</a>-->
+        </p>
+
+        <p class="content"><{$ques.content}></p>
+    </div>
+</block>
+
+<block name="js">
+    <script src="/tp/Public/xcdy/static/js/jquery-3.2.1.min.js"></script>
+    <script>
+        function del(bool) {
+            if (bool) {
+                $.get("<{:U('Index/destroy')}>?id=<{$ques.id}>", {}, function (res) {
+                    console.log(res);
+                });
+            }
+        }
+    </script>
+</block>

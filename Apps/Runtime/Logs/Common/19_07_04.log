@@ -1,0 +1,15 @@
+[ 2019-07-04T04:01:06+08:00 ] 111.198.158.100 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+
+[ 2019-07-04T19:18:52+08:00 ] 110.80.25.5 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2019-07-04T19:18:52+08:00 ] 110.80.25.7 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+
+[ 2019-07-04T21:16:01+08:00 ] 118.89.189.67 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+ERR: 无法加载模块:Index
+
+[ 2019-07-04T21:16:01+08:00 ] 118.89.189.67 /TP/index.php?s=captcha
+ERR: 无法加载模块:Captcha
+

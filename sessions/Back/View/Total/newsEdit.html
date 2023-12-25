@@ -1,0 +1,179 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" >
+<title>新建会议</title>
+    <base href="/tp/Public/2018SecondMeeting/Back/">
+<link rel="stylesheet" type="text/css" href="Assets/css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="Assets/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
+    <link rel="stylesheet" type="text/css" href="Assets/plugins/easyUpload.js/easy-upload.css">
+    <style>
+        .easy_upload-container {
+            padding:0!important;
+            width:90%!important;
+        }
+        .easy_upload_progress, .easy_upload_file2 {
+            display:none!important;;
+        }
+        .easy_upload-head {
+            width:20%;
+            display:inline-block;
+        }
+        .easy_upload_queue {
+            width:79%;
+            height:20px;
+            display:inline-block;
+        }
+        .easy_upload_filename, .easy_upload_btn .btn, .easy_upload_status .status {
+            margin-left: 15px!important;
+        }
+        .easy_upload_status .status {
+            line-height: 73% !important;
+        }
+        .easy_upload_btn .btn {
+            display: inline-block;
+            height: 25px !important;
+            line-height: 25px!important;
+            margin-bottom: 23px!important;
+        }
+        .easy_upload_delbtn {
+            display: none!important;
+        }
+    </style>
+<script type="text/javascript" src="Assets/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	//自适应屏幕宽度
+	window.onresize=function(){ location=location }; 
+	
+	var main_h = $(window).height();
+	$('.hy_list').css('height',main_h-45+'px');
+});
+</script>
+</head>
+
+<body onLoad="Resize();">
+<div id="right_ctn">
+	<div class="right_m">
+		<!--会议列表-->
+        <div class="hy_list">
+        	<div class="box_t">
+                <!--当前位置-->
+                <div class="position">
+                	<a href=""><img src="Assets/images/icon5.png" alt=""/></a>
+                    <a href="">首页</a>
+                    <span><img src="Assets/images/icon3.png" alt=""/></span>
+                    <a href="">昌平新闻</a>
+                    <span><img src="Assets/images/icon3.png" alt=""/></span>
+                    <a href="">编辑昌平新闻</a>
+                </div>
+                <!--当前位置-->
+            </div>
+            <div class="space_hx">&nbsp;</div>
+            <!--新建会议-->
+            <form>
+            <div class="xjhy" style="padding:0px;">
+                <ul class="hypz">
+                    <li class="clearfix">
+                        <span class="title">新闻标题：</span>
+                        <div class="li_r">
+                            <input name="title" type="text" value="{{$new.title}}">
+                            <i>*</i>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="title">简要描述：</span>
+                        <div class="li_r">
+                            <input name="desc" type="text" value="{{$new.desc}}">
+                            <i>*</i>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="title">视频链接：</span>
+                        <div class="li_r">
+                            <input name="link" type="text" value="{{$new.link}}">
+                            <i>*</i>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="title">是否为大图：（0是1否）</span>
+                        <div class="li_r">
+                            <input name="status" type="text" value="{{$new.status}}">
+                            <i>*</i>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="title">封面图片：</span>
+                        <div class="li_r">
+                            <div id="easyContainer"></div>
+                        </div>
+                    </li>
+                    <input type="hidden" name="id" value="{{$new.id}}">
+                    <input type="hidden" name="cat" value="{{$cat}}">
+                    <li class="tj_btn">
+                        <a href="javascript:void(0);">保　存</a>
+                    </li>
+                </ul>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="Assets/plugins/easyUpload.js/easyUpload.js"></script>
+<script>
+    $(function () {
+        $('.tj_btn a').click(function (e) {
+            e.preventDefault();
+            var title = $.trim($('input[name=title]').val());
+            var desc = $.trim($('input[name=desc]').val());
+            var link = $.trim($('input[name=link]').val());
+            var status = $.trim($('input[name=status]').val());
+            var id = $.trim($('input[name=id]').val());
+            if (!title || !link) {
+                alert('请输入完整修改项信息！');
+            } else {
+                $.post("__CONTROLLER__/newsEdit", {title:title,desc:desc, link:link,status:status, id:id}, function (res) {
+                    if (res.code == 1) {
+                        location.href = "{{:U('Total/lists')}}?cat="+$('input[name=cat]').val();
+                    } else if (res.code == 2) {
+                        alert('修改失败！');
+                    } else if (res.code == 3) {
+                        alert('请输入完整修改项信息！');
+                    } else if (res.code == 4) {
+                        alert('数据异常，请联系技术支持！');
+                    }
+                })
+            }
+        })
+    })
+</script>
+<script>
+    $('#easyContainer').easyUpload({
+        allowFileTypes: '*.jpg;*.png;*.jpeg',//允许上传文件类型
+        allowFileSize: 100000,//允许上传文件大小(KB)
+        selectText: '选择文件',//选择文件按钮文案
+        multi: false,//是否允许多文件上传
+        multiNum: 1,//多文件上传时允许的文件数
+        showNote: false,//是否展示文件上传说明
+        showPreview: false,//是否显示文件预览
+        url: "__CONTROLLER__/newsEdit",//上传文件地址
+        fileName: 'file',//文件filename配置参数
+        formParam: {
+            catName: $('input[name=cat]').val()
+        },//文件filename以外的配置参数，格式：{key1:value1,key2:value2}
+        timeout: 30000,//请求超时时间
+        okCode: 200,//与后端返回数据code值一致时执行成功回调，不配置默认200
+        successFunc: function(res) {
+            console.log('成功回调', res);
+        },//上传成功回调函数
+        errorFunc: function(res) {
+            console.log('失败回调', res);
+        },//上传失败回调函数
+        deleteFunc: function(res) {
+            console.log('删除回调', res);
+        }//删除文件回调函数
+    });
+</script>
+</html>

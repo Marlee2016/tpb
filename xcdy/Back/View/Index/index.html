@@ -1,0 +1,95 @@
+<extend name="layout:base"/>
+
+<block name="css">
+    <style>
+        .pagination {
+            display: inline-block;
+            padding-left: 0;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .ydc-pagination li {
+            margin-top: 2px;
+            margin-bottom: 2px;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            height: 40px;
+        }
+
+        .ydc-pagination span+a {
+            margin-left: 5px;
+        }
+        .ydc-pagination a+span {
+            margin-left: 5px;
+        }
+
+        .ydc-pagination a, .ydc-pagination span {
+            position: relative;
+            text-align: center;
+            line-height: 1;
+            cursor: pointer;
+            -webkit-appearance: none;
+            -webkit-transition: all .2s ease-out;
+            transition: all .2s ease-out;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            margin: 0;
+            background-color: #f2f2f2;
+            border-color: #d7dde4;
+            color: #324050;
+            padding: 8px 12px;
+            font-size: 13px;
+            min-width: 32px;
+        }
+
+        .ydc-pagination a:hover, .ydc-pagination span:hover {
+            background: #ff5f5f;
+            border: 1px solid #ff5f5f;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .ydc-pagination .current {
+            background: #ff5f5f;
+            border: 1px solid #ff5f5f;
+            color: #fff;
+            cursor: not-allowed;
+        }
+        .ydc-pagination {
+            padding: 0 0 0 20px;
+        }
+    </style>
+</block>
+
+<block name="list">
+    <if condition="count($errors) GT 0">
+        <div class="alert alert-danger">
+            <ul>
+                <foreach name="errors" item="error">
+                    <li><{$error}></li>
+                </foreach>
+            </ul>
+        </div>
+    </if>
+
+    <div class="ydc-panes">
+        <div class="ydc-pane" style="display:block;">
+            <ol class="ydc-pane-list">
+                <volist name="list" id="li" empty="暂无相关数据">
+                    <li>
+                        <a href="<{:U('Index/detail')}>?id=<{$li.id}>" target="_self"><{$li.title}></a>
+                        <span><{$li.created_at}></span>
+                    </li>
+                </volist>
+            </ol>
+            <div class="ydc-pagination">
+                <{$show}>
+            </div>
+        </div>
+    </div>
+</block>

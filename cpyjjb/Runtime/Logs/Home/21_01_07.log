@@ -1,0 +1,24 @@
+[ 2021-01-07T15:49:36+08:00 ] 61.150.11.213 /tp/sessions.php/home/index//uid/11585/device/00000000-58fb-5229-8e6b-6f8e0033c587
+ERR: 非法操作:uid
+
+[ 2021-01-07T15:49:45+08:00 ] 61.150.11.213 /tp/sessions.php/home/index/s=/uid/11585/device/00000000-58fb-5229-8e6b-6f8e0033c587
+ERR: 非法操作:s=
+
+[ 2021-01-07T17:21:01+08:00 ] 111.196.181.227 /tp/sessions.php/home/index/uid/11585/device/00000000-58fb-5229-8e6b-6f8e0033c587
+ERR: 非法操作:uid
+
+[ 2021-01-07T17:21:10+08:00 ] 111.196.181.227 /tp/sessions.php/home/index&/uid/11585/device/00000000-58fb-5229-8e6b-6f8e0033c587
+ERR: 无法加载控制器:Index&
+
+[ 2021-01-07T17:21:26+08:00 ] 111.196.181.227 /tp/sessions.php/home/index/ad/a
+ERR: 非法操作:ad
+
+[ 2021-01-07T17:21:36+08:00 ] 111.196.181.227 /tp/sessions.php/home/index/asdfasdf
+ERR: 非法操作:asdfasdf
+
+[ 2021-01-07T17:21:41+08:00 ] 111.196.181.227 /tp/sessions.php/home/index/asdfasdf/erqwre
+ERR: 非法操作:asdfasdf
+
+[ 2021-01-07T17:22:46+08:00 ] 61.150.11.213 /tp/sessions.php/home/index//uid/11585/device/00000000-58fb-5229-8e6b-6f8e0033c587
+ERR: 非法操作:uid
+

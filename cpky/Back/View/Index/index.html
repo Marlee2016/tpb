@@ -1,0 +1,137 @@
+<extend name="layout:base"/>
+
+<block name="css">
+    <style>
+        .pagination {
+            display: inline-block;
+            padding-left: 0;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .ydc-pagination li {
+            margin-top: 2px;
+            margin-bottom: 2px;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            height: 40px;
+        }
+
+        .ydc-pagination span+a {
+            margin-left: 5px;
+        }
+        .ydc-pagination a+span {
+            margin-left: 5px;
+        }
+
+        .ydc-pagination a, .ydc-pagination span {
+            position: relative;
+            text-align: center;
+            line-height: 1;
+            cursor: pointer;
+            -webkit-appearance: none;
+            -webkit-transition: all .2s ease-out;
+            transition: all .2s ease-out;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            margin: 0;
+            background-color: #f2f2f2;
+            border-color: #d7dde4;
+            color: #324050;
+            padding: 8px 12px;
+            font-size: 13px;
+            min-width: 32px;
+        }
+
+        .ydc-pagination a:hover, .ydc-pagination span:hover {
+            background: #ff5f5f;
+            border: 1px solid #ff5f5f;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .ydc-pagination .current {
+            background: #ff5f5f;
+            border: 1px solid #ff5f5f;
+            color: #fff;
+            cursor: not-allowed;
+        }
+        .ydc-pagination {
+            padding: 0 0 0 20px;
+        }
+
+        body{font-family:Arial; font-size:14px;line-height:180%;padding-top: 20px;} /*总控制，可忽略此行*/
+table tr:first-child{background:#0066CC; color:#fff;font-weight:bold;} /*第一行标题蓝色背景*/
+table{border-top:1pt solid #C1DAD7;border-left:1pt solid #C1DAD7;margin: 0 auto;} 
+td{ padding:5px 10px; text-align:center;border-right:1pt solid #C1DAD7;border-bottom:1pt solid #C1DAD7;}
+tr:nth-of-type(odd){ background:#c6f9f7} /* odd 标识奇数行，even标识偶数行 */
+tr:hover{ background: #E0F0F0;} /*鼠标悬停后表格背景颜色*/
+    </style>
+</block>
+
+<block name="list">
+    <if condition="count($errors) GT 0">
+        <div class="alert alert-danger">
+            <ul>
+                <foreach name="errors" item="error">
+                    <li><{$error}></li>
+                </foreach>
+            </ul>
+        </div>
+    </if>
+
+    <div class="ydc-panes">
+        <div class="ydc-pane" style="display:block;">
+        <table width='600' border='0' cellspacing='0' cellpadding='0' align='center'>
+                      <tr>
+                        <td>ID</td>
+                        <td>类别</td>
+                        <td>昵称</td>
+                        <td>地址</td>
+                        <td>具体内容</td>
+                        <td>照片视频1</td>
+                        <td>照片视频2</td>
+                        <td>照片视频3</td>
+                        <td>照片视频4</td>
+                        <td>照片视频5</td>
+                        <td>照片视频6</td>
+                        <td>提交时间</td>
+                      </tr>
+            <ol class="ydc-pane-list">
+                <volist name="list" id="li" empty="暂无相关数据">
+                <li>
+                    <tr>
+                       <td> <span><{$li.id}></span></td>
+                       <td> <span><{$li.culture}></span></td>
+                       <td> <span><{$li.username}></span></td>
+                       <td> <span><{$li.address}></span></td>
+                       <td width="8%"> <span><{$li.depict}></span></td>
+                       <td width="5%"><span><a target="_blank" href="http://wx.bjcpn.com/cpky/upload/<{$li.newfile1}>">http://wx.bjcpn.com/cpky/upload/<{$li.newfile1}></a></span></td>
+                       <td width="5%"><span><a target="_blank" href="http://wx.bjcpn.com/cpky/upload/<{$li.newfile2}>">http://wx.bjcpn.com/cpky/upload/<{$li.newfile2}></a></span></td>
+                       <td width="5%"><span><a target="_blank" href="http://wx.bjcpn.com/cpky/upload/<{$li.newfile3}>">http://wx.bjcpn.com/cpky/upload/<{$li.newfile3}></a></span></td>
+                       <td width="5%"><span><a target="_blank" href="http://wx.bjcpn.com/cpky/upload/<{$li.newfile4}>">http://wx.bjcpn.com/cpky/upload/<{$li.newfile4}></a></span></td>
+                       <td width="5%"><span><a target="_blank" href="http://wx.bjcpn.com/cpky/upload/<{$li.newfile5}>">http://wx.bjcpn.com/cpky/upload/<{$li.newfile5}></a></span></td>
+                       <td width="5%"><span><a target="_blank" href="http://wx.bjcpn.com/cpky/upload/<{$li.newfile6}>">http://wx.bjcpn.com/cpky/upload/<{$li.newfile6}></a></span></td>
+                       <!-- <td> <span><{$li.newfile1}></span></td> -->
+                       <td> <span><{$li.ctime}></span></td>
+                    </tr> 
+                </li>
+                </volist>
+            </table>
+            </ol>
+            <div class="ydc-pagination">
+                <{$show}>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        PostbirdImgGlass.init({
+            domSelector:".img-container img",
+            animation:true
+        });
+    </script>
+</block>

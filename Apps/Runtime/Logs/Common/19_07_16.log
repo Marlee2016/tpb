@@ -1,6 +1,0 @@
-[ 2019-07-16T13:00:39+08:00 ] 123.127.114.8 /TP/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
-ERR: 无法加载模块:Index
-
-[ 2019-07-16T13:00:39+08:00 ] 111.198.158.100 /TP/index.php?s=captcha
-ERR: 无法加载模块:Captcha
-

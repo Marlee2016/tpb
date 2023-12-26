@@ -44,7 +44,8 @@ class TotalController extends BaseController
             if ($_FILES) {
                 if ($_FILES['file']['error'] == 0) {
                     // 保存目录
-                    $baseDir = $_SERVER ['DOCUMENT_ROOT'] . '/tp/Public/2022sessions/home/upload/';
+                    // $baseDir = $_SERVER ['DOCUMENT_ROOT'] . '/tp/Public/2022sessions/home/upload/';
+                    $baseDir = $_SERVER ['DOCUMENT_ROOT'] . '/tpb/Public/2022sessions/home/upload/';
                     $path    = $catName . '/' . date('Ymd') . '/';
                     $dir     = $baseDir . $path;
                     if (!is_dir($dir)) {
@@ -107,7 +108,7 @@ class TotalController extends BaseController
             if ($_FILES) {
                 if ($_FILES['file']['error'] == 0) {
                     // 保存目录
-                    $baseDir = $_SERVER ['DOCUMENT_ROOT'] . '/tp/Public/2022sessions/home/upload/';
+                    $baseDir = $_SERVER ['DOCUMENT_ROOT'] . '/tpb/Public/2022sessions/home/upload/';
                     $path    = $catName . '/' . date('Ymd') . '/';
                     $dir     = $baseDir . $path;
                     if (!is_dir($dir)) {
@@ -253,29 +254,35 @@ class TotalController extends BaseController
     {
         $cid = 0;
         switch ($cat) {
-            case 'jjlh':
+            case 'jj':
                 $cid = 10;
                 break;
-            case 'xczb':
+            case 'zb':
                 $cid = 11;
                 break;
-            case 'yqdbg':
+            case 'kz':
                 $cid = 12;
                 break;
-            case 'gqtj':
+            case 'bg':
                 $cid = 13;
                 break;
-            case 'rmhd':
+            case 'lz':
                 $cid = 14;
                 break;
-            case 'lzxs':
+            case 'hg':
                 $cid = 15;
                 break;
-            case 'lhtk':
+            case 'zw':
                 $cid = 16;
                 break;
-            case 'gdpl':
+            case 'cx':
                 $cid = 17;
+                break;
+            case 'pl':
+                $cid = 18;
+                break;
+            default:
+                $cid = 10;
                 break;
         }
 

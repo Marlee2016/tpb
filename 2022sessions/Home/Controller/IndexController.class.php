@@ -91,68 +91,79 @@ class IndexController extends Controller
 
     public function lists()
     {
-        $cat  = I('get.cat');
-        $list = '';
-        $cid = 0;
-        $img  = 'bg.jpg';
-        $news = M('News');
-        switch ($cat) {
-
-            case 'jjlh':
-                $list = $news->where(['cat_id' => 10])->order('id desc')->select();
-                $cid = 10;
-                break;
-            case 'xczb':
-                $list = $news->where(['cat_id' => 11])->order('id desc')->select();
-                $cid = 11;
-                break;
-            case 'yqdbg':
-                $list = $news->where(['cat_id' => 12])->order('id desc')->select();
-                $cid = 12;
-                break;
-            case 'gqtj':
-                $list = $news->where(['cat_id' => 13])->order('id desc')->select();
-                $cid = 13;
-                break;
-            case 'rmhd':
-                $list = $news->where(['cat_id' => 14])->order('id desc')->select();
-                $cid = 14;
-                break;
-            case 'lzxs':
-                $list = $news->where(['cat_id' => 15])->order('id desc')->select();
-                $cid = 15;
-                break;
-            case 'lhtk':
-                $list = $news->where(['cat_id' => 16])->order('id desc')->select();
-                $cid = 16;
-                break;
-            case 'gdpl':
-                $list = $news->where(['cat_id' => 17])->order('id desc')->select();
-                $cid = 17;
-                break;
-            case 'jrp':
-                $list = $news->where(['cat_id' => 18])->order('id desc')->select();
-                $cid = 18;
-                break;
+        try{
+            $cat  = I('get.cat');
+            $list = '';
+            $cid = 0;
+            $img  = 'bg.jpg';
+    
+            $news = M('News');
+    
+            switch ($cat) {
+    
+                case 'jj':
+                    $list = $news->where(['cat_id' => 10])->order('id desc')->select();
+                    $cid = 10;
+                    break;
+                case 'zb':
+                    $list = $news->where(['cat_id' => 11])->order('id desc')->select();
+                    $cid = 11;
+                    break;
+                case 'kz':
+                    $list = $news->where(['cat_id' => 12])->order('id desc')->select();
+                    $cid = 12;
+                    break;
+                case 'bg':
+                    $list = $news->where(['cat_id' => 13])->order('id desc')->select();
+                    $cid = 13;
+                    break;
+                case 'lz':
+                    $list = $news->where(['cat_id' => 14])->order('id desc')->select();
+                    $cid = 14;
+                    break;
+                case 'hg':
+                    $list = $news->where(['cat_id' => 15])->order('id desc')->select();
+                    $cid = 15;
+                    break;
+                case 'zw':
+                    $list = $news->where(['cat_id' => 16])->order('id desc')->select();
+                    $cid = 16;
+                    break;
+                case 'cx':
+                    $list = $news->where(['cat_id' => 17])->order('id desc')->select();
+                    $cid = 17;
+                    break;
+                case 'pl':
+                    $list = $news->where(['cat_id' => 18])->order('id desc')->select();
+                    $cid = 18;
+                    break;
+                default:
+                    $cat = 'jj';
+                    $list = $news->where(['cat_id' => 10])->order('id desc')->select();
+                    $cid = 10;
+                    break;
+            }
+    
+            $this->assign('list', $list);
+            $this->assign('cid', $cid);
+            $this->assign('img', $img);
             
+            if ($cid == 3) {
+                $res = M('News')->where(['cat_id'=>$cid])->find();
+                // dd($res['link']);
+                $this->assign('link', $res['link']);
+                $this->display('list-sb');
+            } else if ($cid == 4) {
+                 $res = M('News')->where(['cat_id'=>$cid])->find();
+                $this->assign('link', $res['link']);
+                $this->display('list-zz');
+            } else {
+                $this->display('list');
+            }
+        }catch(\Exception $e ){
+            var_dump($e->getmessage());
         }
-
-        $this->assign('list', $list);
-        $this->assign('cid', $cid);
-        $this->assign('img', $img);
         
-        if ($cid == 3) {
-            $res = M('News')->where(['cat_id'=>$cid])->find();
-            // dd($res['link']);
-            $this->assign('link', $res['link']);
-            $this->display('list-sb');
-        } else if ($cid == 4) {
-             $res = M('News')->where(['cat_id'=>$cid])->find();
-            $this->assign('link', $res['link']);
-            $this->display('list-zz');
-        } else {
-            $this->display('list');
-        }
     }
 
     public function news()

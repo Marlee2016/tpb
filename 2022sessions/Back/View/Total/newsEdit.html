@@ -90,6 +90,13 @@ $(function(){
                         </div>
                     </li>
                     <li class="clearfix">
+                        <span class="title">创建时间：</span>
+                        <div class="li_r">
+                            <input name="addtime" type="text" value="{{$new.addtime}}">
+                            <!-- <i>*</i> -->
+                        </div>
+                    </li>
+                    <li class="clearfix">
                         <span class="title">链接：</span>
                         <div class="li_r">
                             <input name="link" type="text" value="{{$new.link}}">
@@ -131,18 +138,25 @@ $(function(){
             var link = $.trim($('input[name=link]').val());
             var status = $.trim($('input[name=status]').val());
             var id = $.trim($('input[name=id]').val());
+            var addtime = $.trim($('input[name=addtime]').val());
             if (!title || !link) {
                 alert('请输入完整修改项信息！');
             } else {
-                $.post("__CONTROLLER__/newsEdit", {title:title,desc:desc, link:link,status:status, id:id}, function (res) {
+                $.post("__CONTROLLER__/newsEdit", {title:title,desc:desc, link:link,status:status, id:id,addtime:addtime}, function (res) {
                     if (res.code == 1) {
                         location.href = "{{:U('Total/lists')}}?cat="+$('input[name=cat]').val();
                     } else if (res.code == 2) {
                         alert('修改失败！');
+                        return;
                     } else if (res.code == 3) {
                         alert('请输入完整修改项信息！');
+                        return;
                     } else if (res.code == 4) {
                         alert('数据异常，请联系技术支持！');
+                        return;
+                    }else{
+                        alert('修改失败！errno:05');
+                        return;
                     }
                 })
             }
